@@ -1,0 +1,16 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f79f9f;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+/*# sourceMappingURL=sass-demo4.css.map */
