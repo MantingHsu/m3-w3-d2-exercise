@@ -5,7 +5,11 @@
   "main": "sass-demo1.html",
   "scripts": {
     "lite": "lite-server",
+<<<<<<< HEAD
     "scss": "sass css/*.scss css/"
+=======
+    "scss": "node-sass -o css/ css/",
+>>>>>>> 8e0dc694d90ab701b9eecb977af43f633a3442e5
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
@@ -15,14 +19,24 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0",
+<<<<<<< HEAD
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.1",
     "sass": "^1.89.0"
+=======
+    "node-sass": "^5.0.0",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.1"
+>>>>>>> 8e0dc694d90ab701b9eecb977af43f633a3442e5
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.12.9"
+<<<<<<< HEAD
   },
   "keywords": []
+=======
+  }
+>>>>>>> 8e0dc694d90ab701b9eecb977af43f633a3442e5
 }
