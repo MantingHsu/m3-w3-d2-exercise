@@ -1,19 +1,15 @@
-// Define the mixin
-@mixin button-style($bg, $color) {
+@mixin warning-style($bg, $color) {
   background: $bg;
   color: $color;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1em;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 0.2em 0.5em;
+  text-align: center;
+  margin: 40px center;
+  width: 60%;
 }
 
-// Use the mixin on different buttons
-.button-primary {
-  @include button-style(#007bff, #fff);
-}
-
-.button-secondary {
-  @include button-style(#6c757d, #fff);
+.warning {
+  @include warning-style(green, red);
+  text-align: center;
 }
